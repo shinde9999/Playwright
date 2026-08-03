@@ -1,0 +1,223 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img "logo" [ref=e7]
+        - heading "Learn Automation Courses" [level=1] [ref=e8]
+      - generic [ref=e9]:
+        - img "menu" [ref=e10] [cursor=pointer]
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - text: Learn Automation Courses
+            - img "delete" [ref=e13] [cursor=pointer]
+          - generic [ref=e14]:
+            - link "Home" [ref=e15] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e16]: Home
+            - link "Practise" [ref=e17] [cursor=pointer]:
+              - /url: /practise
+              - generic [ref=e18]: Practise
+            - button "Log in" [ref=e19] [cursor=pointer]
+  - generic [ref=e21]:
+    - generic [ref=e24]:
+      - heading "Sign Up" [level=2] [ref=e25]
+      - textbox "Name" [ref=e26]
+      - textbox "Email" [ref=e27]
+      - textbox "Password must be atleast 6 characters" [ref=e28]:
+        - /placeholder: Password
+      - heading "Interests" [level=4] [ref=e29]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - checkbox "JMeter" [ref=e33]
+          - generic [ref=e34]: JMeter
+        - generic [ref=e35]:
+          - checkbox "JavaScript" [ref=e37]
+          - generic [ref=e38]: JavaScript
+        - generic [ref=e39]:
+          - checkbox "Java" [ref=e41]
+          - generic [ref=e42]: Java
+        - generic [ref=e43]:
+          - checkbox "TestNG" [ref=e45]
+          - generic [ref=e46]: TestNG
+        - generic [ref=e47]:
+          - checkbox "babo" [ref=e49]
+          - generic [ref=e50]: babo
+        - generic [ref=e51]:
+          - checkbox "AWS Neptune" [ref=e53]
+          - generic [ref=e54]: AWS Neptune
+        - generic [ref=e55]:
+          - checkbox "AWS Lambda" [ref=e57]
+          - generic [ref=e58]: AWS Lambda
+        - generic [ref=e59]:
+          - checkbox "PW-chromium-1784976608878" [ref=e61]
+          - generic [ref=e62]: PW-chromium-1784976608878
+        - generic [ref=e63]:
+          - checkbox "PW-chromium-1784976663402" [ref=e65]
+          - generic [ref=e66]: PW-chromium-1784976663402
+        - generic [ref=e67]:
+          - checkbox "PW-chromium-1784976988819" [ref=e69]
+          - generic [ref=e70]: PW-chromium-1784976988819
+        - generic [ref=e71]:
+          - checkbox "PW-chromium-1784976988954" [ref=e73]
+          - generic [ref=e74]: PW-chromium-1784976988954
+        - generic [ref=e75]:
+          - checkbox "PW-firefox-1784977034671" [ref=e77]
+          - generic [ref=e78]: PW-firefox-1784977034671
+        - generic [ref=e79]:
+          - checkbox "PW-firefox-1784977043768" [ref=e81]
+          - generic [ref=e82]: PW-firefox-1784977043768
+        - generic [ref=e83]:
+          - checkbox "PW-webkit-1784977066531" [ref=e85]
+          - generic [ref=e86]: PW-webkit-1784977066531
+        - generic [ref=e87]:
+          - checkbox "PW-webkit-1784977071761" [ref=e89]
+          - generic [ref=e90]: PW-webkit-1784977071761
+        - generic [ref=e91]:
+          - checkbox "PW-chromium-1784977149070" [ref=e93]
+          - generic [ref=e94]: PW-chromium-1784977149070
+        - generic [ref=e95]:
+          - checkbox "PW-chromium-1784977148733" [ref=e97]
+          - generic [ref=e98]: PW-chromium-1784977148733
+        - generic [ref=e99]:
+          - checkbox "PW-chromium-1784977777074" [ref=e101]
+          - generic [ref=e102]: PW-chromium-1784977777074
+        - generic [ref=e103]:
+          - checkbox "PW-chromium-1784977777078" [ref=e105]
+          - generic [ref=e106]: PW-chromium-1784977777078
+        - generic [ref=e107]:
+          - checkbox "PW-chromium-1784977887322" [ref=e109]
+          - generic [ref=e110]: PW-chromium-1784977887322
+        - generic [ref=e111]:
+          - checkbox "PW-chromium-1784977887323" [ref=e113]
+          - generic [ref=e114]: PW-chromium-1784977887323
+        - generic [ref=e115]:
+          - checkbox "PW-chromium-1784977927891" [ref=e117]
+          - generic [ref=e118]: PW-chromium-1784977927891
+        - generic [ref=e119]:
+          - checkbox "PW-chromium-1784977928279" [ref=e121]
+          - generic [ref=e122]: PW-chromium-1784977928279
+        - generic [ref=e123]:
+          - checkbox "PW-chromium-1784978602862" [ref=e125]
+          - generic [ref=e126]: PW-chromium-1784978602862
+        - generic [ref=e127]:
+          - checkbox "PW-chromium-1784979205365" [ref=e129]
+          - generic [ref=e130]: PW-chromium-1784979205365
+        - generic [ref=e131]:
+          - checkbox "PW-chromium-1784979259099" [ref=e133]
+          - generic [ref=e134]: PW-chromium-1784979259099
+        - generic [ref=e135]:
+          - checkbox "PW-chromium-1784979288827" [ref=e137]
+          - generic [ref=e138]: PW-chromium-1784979288827
+        - generic [ref=e139]:
+          - checkbox "PW-chromium-1784979475808" [ref=e141]
+          - generic [ref=e142]: PW-chromium-1784979475808
+        - generic [ref=e143]:
+          - checkbox "PW-chromium-1784979518103" [ref=e145]
+          - generic [ref=e146]: PW-chromium-1784979518103
+        - generic [ref=e147]:
+          - checkbox "PW-chromium-1784979518039" [ref=e149]
+          - generic [ref=e150]: PW-chromium-1784979518039
+        - generic [ref=e151]:
+          - checkbox "PW-chromium-1784980647266" [ref=e153]
+          - generic [ref=e154]: PW-chromium-1784980647266
+        - generic [ref=e155]:
+          - checkbox "PW-chromium-1784980647284" [ref=e157]
+          - generic [ref=e158]: PW-chromium-1784980647284
+        - generic [ref=e159]:
+          - checkbox "PW-chromium-1784980833619" [ref=e161]
+          - generic [ref=e162]: PW-chromium-1784980833619
+        - generic [ref=e163]:
+          - checkbox "PW-chromium-1784980905755" [ref=e165]
+          - generic [ref=e166]: PW-chromium-1784980905755
+        - generic [ref=e167]:
+          - checkbox "PW-chromium-1784980920396" [ref=e169]
+          - generic [ref=e170]: PW-chromium-1784980920396
+        - generic [ref=e171]:
+          - checkbox "PW-chromium-1784981044352" [ref=e173]
+          - generic [ref=e174]: PW-chromium-1784981044352
+        - generic [ref=e175]:
+          - checkbox "Afridi 185844" [ref=e177]
+          - generic [ref=e178]: Afridi 185844
+        - generic [ref=e179]:
+          - checkbox "Devops" [ref=e181]
+          - generic [ref=e182]: Devops
+      - heading "Gender" [level=4] [ref=e183]
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - radio [checked] [ref=e186]
+          - generic [ref=e187]: Male
+        - generic [ref=e188]:
+          - radio [ref=e189]
+          - generic [ref=e190]: Female
+      - generic [ref=e191]:
+        - heading "State:" [level=4] [ref=e192]
+        - combobox [ref=e193]:
+          - option "Andhra Pradesh"
+          - option "Arunachal Pradesh"
+          - option "Assam"
+          - option "Bihar"
+          - option "Chhattisgarh"
+          - option "Goa"
+          - option "Gujarat"
+          - option "Haryana"
+          - option "Himachal Pradesh"
+          - option "Jammu and Kashmir"
+          - option "Jharkhand"
+          - option "Karnataka"
+          - option "Kerala"
+          - option "Madhya Pradesh"
+          - option "Maharashtra"
+          - option "Manipur"
+          - option "Meghalaya"
+          - option "Mizoram"
+          - option "Nagaland"
+          - option "Odisha"
+          - option "Punjab"
+          - option "Rajasthan"
+          - option "Sikkim"
+          - option "Tamil Nadu"
+          - option "Telangana"
+          - option "Tripura"
+          - option "Uttarakhand"
+          - option "Uttar Pradesh"
+          - option "West Bengal"
+          - option "Andaman and Nicobar Islands"
+          - option "Chandigarh"
+          - option "Dadra and Nagar Haveli"
+          - option "Daman and Diu"
+          - option "Delhi"
+          - option "Lakshadweep"
+          - option "Puducherry"
+      - generic [ref=e194]:
+        - heading "Hobbies:" [level=4] [ref=e195]
+        - listbox [ref=e196]:
+          - option "Playing" [ref=e197]
+          - option "Reading" [ref=e198]
+          - option "Swimming" [ref=e199]
+          - option "Singing" [ref=e200]
+          - option "Dancing" [ref=e201]
+      - button "Sign up" [disabled] [ref=e202]
+      - link "Already a user? Login" [ref=e203] [cursor=pointer]:
+        - /url: /login
+    - img "Login" [ref=e205]
+  - generic [ref=e207]:
+    - generic [ref=e208]:
+      - heading "Learn Automation By Mukesh Otwani" [level=3] [ref=e209]
+      - heading "©2023 All rights reserved" [level=2] [ref=e210]
+    - generic [ref=e211] [cursor=pointer]:
+      - link [ref=e212]:
+        - /url: https://youtube.com/MukeshOtwani
+        - img [ref=e213]
+      - link [ref=e216]:
+        - /url: https://twitter.com/MukeshOtwani
+        - img [ref=e217]
+      - link [ref=e219]:
+        - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+        - img [ref=e220]
+      - link [ref=e222]:
+        - /url: https://www.facebook.com/groups/256655817858291
+        - img [ref=e223]
+```

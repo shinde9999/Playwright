@@ -1,0 +1,38 @@
+All States are: Select StateAndhra PradeshArunachal PradeshAssamBiharChhattisgarhGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaMadhya PradeshMaharashtraManipurMeghalayaMizoramNagalandOdishaPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttarakhandUttar PradeshWest BengalAndaman and Nicobar IslandsChandigarhDadra and Nagar HaveliDaman and DiuDelhiLakshadweepPuducherry
+All Values in the Dropdown are: Select State
+All Values in the Dropdown are: Andhra Pradesh
+All Values in the Dropdown are: Arunachal Pradesh
+All Values in the Dropdown are: Assam
+All Values in the Dropdown are: Bihar
+All Values in the Dropdown are: Chhattisgarh
+All Values in the Dropdown are: Goa
+All Values in the Dropdown are: Gujarat
+All Values in the Dropdown are: Haryana
+All Values in the Dropdown are: Himachal Pradesh
+All Values in the Dropdown are: Jammu and Kashmir
+All Values in the Dropdown are: Jharkhand
+All Values in the Dropdown are: Karnataka
+All Values in the Dropdown are: Kerala
+All Values in the Dropdown are: Madhya Pradesh
+All Values in the Dropdown are: Maharashtra
+All Values in the Dropdown are: Manipur
+All Values in the Dropdown are: Meghalaya
+All Values in the Dropdown are: Mizoram
+All Values in the Dropdown are: Nagaland
+All Values in the Dropdown are: Odisha
+All Values in the Dropdown are: Punjab
+All Values in the Dropdown are: Rajasthan
+All Values in the Dropdown are: Sikkim
+All Values in the Dropdown are: Tamil Nadu
+All Values in the Dropdown are: Telangana
+All Values in the Dropdown are: Tripura
+All Values in the Dropdown are: Uttarakhand
+All Values in the Dropdown are: Uttar Pradesh
+All Values in the Dropdown are: West Bengal
+All Values in the Dropdown are: Andaman and Nicobar Islands
+All Values in the Dropdown are: Chandigarh
+All Values in the Dropdown are: Dadra and Nagar Haveli
+All Values in the Dropdown are: Daman and Diu
+All Values in the Dropdown are: Delhi
+All Values in the Dropdown are: Lakshadweep
+All Values in the Dropdown are: Puducherry
