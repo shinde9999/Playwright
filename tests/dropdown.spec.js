@@ -19,6 +19,7 @@ test("Dropdown Test", async function({page}) {
 
     const value = await page.locator("#state").textContent();
     console.log("All States are: " + value);
+    console.log("NO of state",+value.length)
 
     await expect(value.includes("Gujarat")).toBeTruthy();
 

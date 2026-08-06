@@ -20,11 +20,11 @@ test("login", async ({ page }) => {
     // console.log(await page.viewportSize().width)
     // console.log(await page.viewportSize().height)
 
-    await page.getByPlaceholder("Username").fill("Admin",{delay: 300})
-    await page.locator("input[name='password']").fill("admin123",{delay: 300})
+    await page.getByPlaceholder("Username").fill("Admin")
+    await page.locator("input[name='password']").fill("admin123")
     await page.getByRole("button", { name: "Login" }).click();
     // await page.waitForTimeout(9000)
-    await expect(page).toHaveURL(/dashboard/);
+    await expect(page).toHaveURL('/dashboard/');
     await page.getByAltText("profile picture").first().click()
     await page.getByText("Logout").click()
     // await page.waitForTimeout(7000)

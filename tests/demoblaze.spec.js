@@ -3,7 +3,7 @@ const {test, expect} = require('@playwright/test');
 test('demoblaze test', async ({ page }) => {
     await page.goto('https://www.demoblaze.com/');
     //by using the id css selector
-    // await page.locator('#login2').click();
+    // await page.locator('#login2').click();               
 
     //by using the id locator
     // await page.locator('id =login2').click();

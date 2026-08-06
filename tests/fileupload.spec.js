@@ -1,5 +1,5 @@
 const {test, expect} = require('@playwright/test');
-const e = require('cors');
+// const e = require('cors');
 
 test("File Upload Test", async function({page}) {
 
