@@ -15,8 +15,9 @@ test('handle multiple tabs', async ({browser}) => {//for multiple tabs we need t
 
         ])
         await newPage.locator("(//input[@name='email'])[2]").fill("aniketshinde12457@gmail.com");
+        await page.waitForTimeout(2000)
         await newPage.close()
 
-        await page.locator("//input[@id='email1']").fill("aniketshinde12457@gmail.com")
+        await page.locator("#email1").fill("aniketshinde12457@gmail.com")
         await page.waitForTimeout(2000)
 })

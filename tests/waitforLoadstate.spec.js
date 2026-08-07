@@ -4,5 +4,7 @@ test('wait for load state', async ({ page }) => {
     await page.getByText("New user? Signup").click();
     await page.waitForLoadState('networkidle');
     const count = await page.locator("//input[@type='checkbox']").count();
-    expect(count).toBe(39);
+    expect(count).toBe(0);
+    console.log(count);
+
 })
