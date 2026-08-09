@@ -19,13 +19,16 @@ test("Dropdown Test", async function({page}) {
 
     const value = await page.locator("#state").textContent();
     console.log("All States are: " + value);
-    console.log("NO of state",+value.length)
+    console.log("=====================================================================================");
+    
+    console.log("NO of state",+value.length);
+    console.log("=====================================================================================");
 
     await expect(value.includes("Gujarat")).toBeTruthy();
 
-    let state=await page.$("#state")
+    // let state=await page.$("#state")
 
-    let allElements=await state.$$("option");
+    let allElements=await page.$$("#state option");
 
     for(let i=0;i<allElements.length;i++)
     {

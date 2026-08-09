@@ -12,7 +12,7 @@ class LoginPage {
         await this.page.fill(this.username, "aniketshinde12457@gmail.com");
         await this.page.fill(this.password, "@Aniket2003");
         await this.page.click(this.loginbutton);
-        // await this.page.waitForTimeout(2000)
+        await this.page.waitForTimeout(2000)
         // await this.page.pause()
     }
 
