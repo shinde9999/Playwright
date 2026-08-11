@@ -28,6 +28,8 @@ test('demoblaze test', async ({ page }) => {
     //for loop for each link in the element array and show the text content of the link in the console
     for (const link of element) {
         console.log(await link.textContent());
+        console.log("=====================================================");
+        
     }
     await page.waitForTimeout(1000);
 

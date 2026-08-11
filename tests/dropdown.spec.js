@@ -30,10 +30,10 @@ test("Dropdown Test", async function({page}) {
 
     let allElements=await page.$$("#state option");
 
-    for(let i=0;i<allElements.length;i++)
+    for(const all of allElements)
     {
-        let element=allElements[i]
-        let text=await element.textContent();
+        // let element=allElements[i]
+        let text=await all.textContent();
         console.log("All Values in the Dropdown are: " + text);
     }
 

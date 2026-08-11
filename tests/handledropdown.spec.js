@@ -20,11 +20,11 @@ test("Handle Dropdown", async ({page})=> {
     const d = await page.$$('#country option');
     for(let option of d){
         const value = await option.textContent();//return values
-        console.log("===============================================================================================================");
+        console.log("=======================================================================");
         console.log(value);
         
     }
-    console.log("===============================================================================================================");
+    console.log("===========================================================================");
     //console.log("Number of Contry",+d);
     console.log("Number of Contry",+d.length);
     await expect(d.length).toBe(10);
@@ -33,14 +33,14 @@ test("Handle Dropdown", async ({page})=> {
 
 
     //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    console.log("===================================================================================================");
+    console.log("===========================================================================");
     const col = await page.locator('#colors').textContent();
     await expect(col.includes("Red")).toBeTruthy();
     await expect(col.includes("Blue")).toBeTruthy();
     await expect(col.includes("Green")).toBeTruthy();
     await expect(col.includes("Yellow")).toBeTruthy();
 
-    console.log("===============================================================================================================");
+    console.log("============================================================================");
     console.log("For test Multiple colors in single line");
     
     await expect(await page.locator('#colors').textContent()).toEqual(expect.stringMatching(/Red|Blue|Green|Yellow/));
