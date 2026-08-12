@@ -69,7 +69,7 @@ test("Put Example", async({request})=>{
     console.log(deleteresponse.statusText());
     console.log("======================================================================");
 
-    const newdelete = await request.delete("https://restful-booker.herokuapp.com/booking/${bookingid}");
+    const newdelete = await request.get("https://restful-booker.herokuapp.com/booking/${bookingid}");
     console.log(newdelete.status());
     console.log(newdelete.statusText());
     
