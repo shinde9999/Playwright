@@ -26,7 +26,7 @@ test("Handle checkbox", async ({page})=>{
     //Select checkbox for product4
     const matchrow = row.filter({
         has:page.locator('td'),
-        hasText: 'Smartwatch'
+        hasText: 'Smartwatch',
     })
 
     await matchrow.locator('input').check();
